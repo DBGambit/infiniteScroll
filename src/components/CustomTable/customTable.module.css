@@ -1,0 +1,69 @@
+.Main {
+    margin-top: 1%;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Headers {
+    background-color: black;
+    width: 90%;
+    height: 10%;
+    margin: auto;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    border: 3px solid orange;
+    border-radius: 10px;
+
+}
+
+.Data {
+    width: 90%;
+    height: 70%;
+    border: 3px solid orange;
+    margin: auto;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.Row {
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    color: orange;
+    /*border: 1px solid green;*/
+    display: flex;
+}
+
+.Row:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.Del {
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+    width: 30%;
+}
+
+.Del:hover {
+    color: white;
+}
+
+.Opt {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Row p {
+    width: 50%;
+    /*border: 1px solid green;*/
+    font-weight: bold;
+    font-style: italic;
+    /*border-radius: 5px;*/
+
+}
